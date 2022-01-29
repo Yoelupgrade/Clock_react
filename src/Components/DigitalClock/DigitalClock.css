@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@media (min-width: 320px){
+    .clock{
+        font-size: 170%;
+        width: 300px;
+        height:100px;}
+    }
+    
+    @media (min-width: 768px){
+        .clock{
+        width: 420px;
+        height:160px;
+        font-size: 250%;}
+        }
+
+.clock{
+    box-shadow: 1px -1px 0px #6e5136,
+    2px -1.5px 0px #6e5136,
+    3px -2px 0px #6e5136,
+    5px -2.5px 1px #6e5136,
+    6px -3px 1px #6e5136,
+    7px -3.5px 1px #6e5136,
+    9px -4px 2px #6e5136,
+    10px -5px 2px #6e5136;
+    color:white;
+    font-family: 'Electrolize', sans-serif;
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 15px;
+    background-color: #753700;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
+}

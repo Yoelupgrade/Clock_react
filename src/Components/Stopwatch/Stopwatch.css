@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@media (min-width: 320px){
+    .crono-container{
+        font-size: 170%;
+        width: 300px;
+        height:100px;}
+
+        .crono{
+            width:60%;
+        }
+    }
+    
+    @media (min-width: 768px){
+        .crono-container{
+            width: 420px;
+            height:160px;
+            font-size: 250%;}
+
+        .crono{
+            width:70%;
+        }
+        }
+
+.crono-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    border: 7px solid rgb(83, 83, 83);
+    border-radius: 10px;
+    
+}
+.crono{
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 1%;
+    color:rgb(46, 199, 0);
+    font-family: 'Electrolize', sans-serif;
+    text-shadow: 0 0 5px rgb(46, 199, 0);
+    background-color: #1f1e1e;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}

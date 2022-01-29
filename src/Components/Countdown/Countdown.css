@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+@media (min-width: 320px){
+    .contain{
+        font-size: 60%;
+        height: 250px;
+        width: 250px;
+    }
+    }
+    
+    @media (min-width: 768px){
+        .contain{
+            font-size: 80%;
+        width: 350px;
+        height:350px;
+        }
+        }
+h1{
+    font-family: 'Electrolize', sans-serif;
+}
+        .countdown{
+            background-color: rgba(255, 255, 255, 0.411);
+            padding:2%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255),0 0 10px rgb(255, 255, 255) inset,0 0 15px rgb(255, 255, 255) inset;
+        }
+
+.contain{
+    padding: 2%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("https://res.cloudinary.com/dsmdcnoys/image/upload/v1643492696/Varios/Up_Hub_uw9mnk.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255),0 0 10px rgb(255, 255, 255) inset,0 0 15px rgb(255, 255, 255) inset;
+}
